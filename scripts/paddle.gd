@@ -11,7 +11,7 @@ signal on_destroyed
 
 var non_mouse_movement: bool = true
 var move_motion: Vector2 = Vector2.ZERO
-const MOVEMENT_SPEED: int = 375
+const MOVEMENT_SPEED: int = 425 #375
 
 func _ready() -> void:
 	mode.enable()

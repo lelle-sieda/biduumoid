@@ -80,7 +80,9 @@ func _input(event: InputEvent) -> void:
 
 func _pause_game() -> void:
 	get_tree().paused = true
+	%PauseMenu.grab_focus()
 	%PauseMenu.show()
+	
 
 
 func on_game_over() -> void:

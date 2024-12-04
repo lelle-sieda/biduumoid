@@ -9,5 +9,5 @@ points = 50
 hits_to_destroy = 2
 can_be_destroyed = true
 allowed_to_spawn_powerup = false
-region_rect = Rect2(0, 96, 32, 16)
+region_rect = Rect2(0, 192, 64, 32)
 animation_name = "brick_silver"

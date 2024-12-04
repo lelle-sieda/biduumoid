@@ -16,6 +16,21 @@ size = Vector2(16, 64)
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_503wu"]
 size = Vector2(32, 64)
 
+[sub_resource type="Animation" id="Animation_7hjpk"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("ExitSign/ExitSignLabel:theme_override_colors/font_color")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(1, 1, 1, 0.113725)]
+}
+
 [sub_resource type="Animation" id="Animation_ksxd3"]
 resource_name = "exit_sign_blink"
 loop_mode = 1
@@ -48,21 +63,6 @@ tracks/0/keys = {
 "values": [Color(1, 1, 1, 0), Color(1, 1, 1, 0.113725)]
 }
 
-[sub_resource type="Animation" id="Animation_7hjpk"]
-length = 0.001
-tracks/0/type = "value"
-tracks/0/imported = false
-tracks/0/enabled = true
-tracks/0/path = NodePath("ExitSign/ExitSignLabel:theme_override_colors/font_color")
-tracks/0/interp = 1
-tracks/0/loop_wrap = true
-tracks/0/keys = {
-"times": PackedFloat32Array(0),
-"transitions": PackedFloat32Array(1),
-"update": 0,
-"values": [Color(1, 1, 1, 0.113725)]
-}
-
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_v81a2"]
 _data = {
 "RESET": SubResource("Animation_7hjpk"),
@@ -83,7 +83,7 @@ collision_mask = 6
 [node name="SpriteUpper" type="Sprite2D" parent="UpperBlock"]
 texture = ExtResource("2_ssc0w")
 region_enabled = true
-region_rect = Rect2(320, 224, 32, 32)
+region_rect = Rect2(320.052, 320.053, 31.8908, 31.8908)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="UpperBlock"]
 shape = SubResource("RectangleShape2D_ttkjv")
@@ -96,7 +96,7 @@ collision_mask = 6
 position = Vector2(0, 32)
 texture = ExtResource("2_ssc0w")
 region_enabled = true
-region_rect = Rect2(320, 224, 32, 32)
+region_rect = Rect2(320, 319.837, 32.0778, 32.1611)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="LowerBlock"]
 position = Vector2(0, 32)

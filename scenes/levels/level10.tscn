@@ -1,298 +1,281 @@
-[gd_scene load_steps=8 format=3 uid="uid://b0bn1e278cirl"]
-
-[ext_resource type="PackedScene" uid="uid://bdlewbi22dowq" path="res://scenes/world.tscn" id="1_r11in"]
-[ext_resource type="PackedScene" uid="uid://dva53aapfah8n" path="res://scenes/brick.tscn" id="2_lfs4v"]
-[ext_resource type="Resource" uid="uid://dgctb785bff1f" path="res://scenes/bricks/brick_gold.tres" id="3_kcrlq"]
-[ext_resource type="Resource" uid="uid://b60q2xaraql5a" path="res://scenes/bricks/brick_blue.tres" id="5_undud"]
-[ext_resource type="Resource" uid="uid://f68v43dk7ffp" path="res://scenes/bricks/brick_silver.tres" id="6_u6hce"]
-[ext_resource type="Resource" uid="uid://dce56mdkpqqik" path="res://scenes/bricks/brick_pink.tres" id="6_woe2h"]
-[ext_resource type="Resource" uid="uid://c6fncyguxrsml" path="res://scenes/bricks/brick_cyan.tres" id="8_ndb3t"]
-
-[node name="Level10" instance=ExtResource("1_r11in")]
-
-[node name="Brick" parent="DefaultLevel" index="1" instance=ExtResource("2_lfs4v")]
-position = Vector2(80, 40)
-type = ExtResource("3_kcrlq")
-
-[node name="Brick2" parent="DefaultLevel" index="2" instance=ExtResource("2_lfs4v")]
-position = Vector2(80, 104)
-type = ExtResource("3_kcrlq")
-
-[node name="Brick4" parent="DefaultLevel" index="3" instance=ExtResource("2_lfs4v")]
-position = Vector2(80, 328)
-type = ExtResource("3_kcrlq")
-
-[node name="Brick3" parent="DefaultLevel" index="4" instance=ExtResource("2_lfs4v")]
-position = Vector2(80, 120)
-type = ExtResource("3_kcrlq")
-
-[node name="Brick25" parent="DefaultLevel" index="5" instance=ExtResource("2_lfs4v")]
-position = Vector2(336, 152)
-type = ExtResource("5_undud")
-
-[node name="Brick33" parent="DefaultLevel" index="6" instance=ExtResource("2_lfs4v")]
-position = Vector2(240, 232)
-type = ExtResource("5_undud")
-
-[node name="Brick34" parent="DefaultLevel" index="7" instance=ExtResource("2_lfs4v")]
-position = Vector2(80, 216)
-type = ExtResource("3_kcrlq")
-
-[node name="Brick37" parent="DefaultLevel" index="8" instance=ExtResource("2_lfs4v")]
-position = Vector2(272, 200)
-type = ExtResource("8_ndb3t")
-
-[node name="Brick46" parent="DefaultLevel" index="9" instance=ExtResource("2_lfs4v")]
-position = Vector2(240, 184)
-type = ExtResource("8_ndb3t")
-
-[node name="Brick75" parent="DefaultLevel" index="10" instance=ExtResource("2_lfs4v")]
-position = Vector2(272, 184)
-type = ExtResource("6_u6hce")
-
-[node name="Brick47" parent="DefaultLevel" index="11" instance=ExtResource("2_lfs4v")]
-position = Vector2(304, 184)
-type = ExtResource("8_ndb3t")
-
-[node name="Brick38" parent="DefaultLevel" index="12" instance=ExtResource("2_lfs4v")]
-position = Vector2(272, 168)
-type = ExtResource("8_ndb3t")
-
-[node name="Brick48" parent="DefaultLevel" index="13" instance=ExtResource("2_lfs4v")]
-position = Vector2(240, 200)
-type = ExtResource("6_woe2h")
-
-[node name="Brick49" parent="DefaultLevel" index="14" instance=ExtResource("2_lfs4v")]
-position = Vector2(272, 216)
-type = ExtResource("6_woe2h")
-
-[node name="Brick39" parent="DefaultLevel" index="15" instance=ExtResource("2_lfs4v")]
-position = Vector2(176, 184)
-type = ExtResource("8_ndb3t")
-
-[node name="Brick45" parent="DefaultLevel" index="16" instance=ExtResource("2_lfs4v")]
-position = Vector2(208, 200)
-type = ExtResource("8_ndb3t")
-
-[node name="Brick40" parent="DefaultLevel" index="17" instance=ExtResource("2_lfs4v")]
-position = Vector2(304, 216)
-type = ExtResource("8_ndb3t")
-
-[node name="Brick44" parent="DefaultLevel" index="18" instance=ExtResource("2_lfs4v")]
-position = Vector2(240, 216)
-type = ExtResource("8_ndb3t")
-
-[node name="Brick41" parent="DefaultLevel" index="19" instance=ExtResource("2_lfs4v")]
-position = Vector2(368, 168)
-type = ExtResource("5_undud")
-
-[node name="Brick42" parent="DefaultLevel" index="20" instance=ExtResource("2_lfs4v")]
-position = Vector2(272, 248)
-type = ExtResource("5_undud")
-
-[node name="Brick43" parent="DefaultLevel" index="21" instance=ExtResource("2_lfs4v")]
-position = Vector2(304, 136)
-type = ExtResource("5_undud")
-
-[node name="Brick50" parent="DefaultLevel" index="22" instance=ExtResource("2_lfs4v")]
-position = Vector2(272, 120)
-type = ExtResource("5_undud")
-
-[node name="Brick51" parent="DefaultLevel" index="23" instance=ExtResource("2_lfs4v")]
-position = Vector2(240, 136)
-type = ExtResource("5_undud")
-
-[node name="Brick52" parent="DefaultLevel" index="24" instance=ExtResource("2_lfs4v")]
-position = Vector2(208, 152)
-type = ExtResource("5_undud")
-
-[node name="Brick53" parent="DefaultLevel" index="25" instance=ExtResource("2_lfs4v")]
-position = Vector2(208, 168)
-type = ExtResource("8_ndb3t")
-
-[node name="Brick54" parent="DefaultLevel" index="26" instance=ExtResource("2_lfs4v")]
-position = Vector2(240, 152)
-type = ExtResource("8_ndb3t")
-
-[node name="Brick35" parent="DefaultLevel" index="27" instance=ExtResource("2_lfs4v")]
-position = Vector2(304, 232)
-type = ExtResource("5_undud")
-
-[node name="Brick69" parent="DefaultLevel" index="28" instance=ExtResource("2_lfs4v")]
-position = Vector2(336, 216)
-type = ExtResource("5_undud")
-
-[node name="Brick70" parent="DefaultLevel" index="29" instance=ExtResource("2_lfs4v")]
-position = Vector2(368, 200)
-type = ExtResource("5_undud")
-
-[node name="Brick71" parent="DefaultLevel" index="30" instance=ExtResource("2_lfs4v")]
-position = Vector2(400, 184)
-type = ExtResource("5_undud")
-
-[node name="Brick72" parent="DefaultLevel" index="31" instance=ExtResource("2_lfs4v")]
-position = Vector2(144, 184)
-type = ExtResource("5_undud")
-
-[node name="Brick73" parent="DefaultLevel" index="32" instance=ExtResource("2_lfs4v")]
-position = Vector2(176, 200)
-type = ExtResource("5_undud")
-
-[node name="Brick74" parent="DefaultLevel" index="33" instance=ExtResource("2_lfs4v")]
-position = Vector2(208, 216)
-type = ExtResource("5_undud")
-
-[node name="Brick36" parent="DefaultLevel" index="34" instance=ExtResource("2_lfs4v")]
-position = Vector2(80, 232)
-type = ExtResource("3_kcrlq")
-
-[node name="Brick31" parent="DefaultLevel" index="35" instance=ExtResource("2_lfs4v")]
-position = Vector2(80, 200)
-type = ExtResource("3_kcrlq")
-
-[node name="Brick32" parent="DefaultLevel" index="36" instance=ExtResource("2_lfs4v")]
-position = Vector2(80, 248)
-type = ExtResource("3_kcrlq")
-
-[node name="Brick26" parent="DefaultLevel" index="37" instance=ExtResource("2_lfs4v")]
-position = Vector2(80, 184)
-type = ExtResource("3_kcrlq")
-
-[node name="Brick27" parent="DefaultLevel" index="38" instance=ExtResource("2_lfs4v")]
-position = Vector2(176, 168)
-type = ExtResource("5_undud")
-
-[node name="Brick28" parent="DefaultLevel" index="39" instance=ExtResource("2_lfs4v")]
-position = Vector2(80, 312)
-type = ExtResource("3_kcrlq")
-
-[node name="Brick18" parent="DefaultLevel" index="40" instance=ExtResource("2_lfs4v")]
-position = Vector2(80, 88)
-type = ExtResource("6_u6hce")
-
-[node name="Brick57" parent="DefaultLevel" index="41" instance=ExtResource("2_lfs4v")]
-position = Vector2(80, 56)
-type = ExtResource("3_kcrlq")
-
-[node name="Brick19" parent="DefaultLevel" index="42" instance=ExtResource("2_lfs4v")]
-position = Vector2(208, 184)
-type = ExtResource("6_woe2h")
-
-[node name="Brick20" parent="DefaultLevel" index="43" instance=ExtResource("2_lfs4v")]
-position = Vector2(80, 168)
-type = ExtResource("3_kcrlq")
-
-[node name="Brick21" parent="DefaultLevel" index="44" instance=ExtResource("2_lfs4v")]
-position = Vector2(240, 168)
-type = ExtResource("6_woe2h")
-
-[node name="Brick22" parent="DefaultLevel" index="45" instance=ExtResource("2_lfs4v")]
-position = Vector2(80, 152)
-type = ExtResource("3_kcrlq")
-
-[node name="Brick23" parent="DefaultLevel" index="46" instance=ExtResource("2_lfs4v")]
-position = Vector2(272, 152)
-type = ExtResource("6_woe2h")
-
-[node name="Brick30" parent="DefaultLevel" index="47" instance=ExtResource("2_lfs4v")]
-position = Vector2(304, 200)
-type = ExtResource("6_woe2h")
-
-[node name="Brick55" parent="DefaultLevel" index="48" instance=ExtResource("2_lfs4v")]
-position = Vector2(336, 184)
-type = ExtResource("6_woe2h")
-
-[node name="Brick56" parent="DefaultLevel" index="49" instance=ExtResource("2_lfs4v")]
-position = Vector2(304, 168)
-type = ExtResource("6_woe2h")
-
-[node name="Brick24" parent="DefaultLevel" index="50" instance=ExtResource("2_lfs4v")]
-position = Vector2(80, 136)
-type = ExtResource("3_kcrlq")
-
-[node name="Brick9" parent="DefaultLevel" index="51" instance=ExtResource("2_lfs4v")]
-position = Vector2(80, 264)
-type = ExtResource("3_kcrlq")
-
-[node name="Brick10" parent="DefaultLevel" index="52" instance=ExtResource("2_lfs4v")]
-position = Vector2(80, 280)
-type = ExtResource("3_kcrlq")
-
-[node name="Brick11" parent="DefaultLevel" index="53" instance=ExtResource("2_lfs4v")]
-position = Vector2(80, 296)
-type = ExtResource("3_kcrlq")
-
-[node name="Brick12" parent="DefaultLevel" index="54" instance=ExtResource("2_lfs4v")]
-position = Vector2(368, 184)
-type = ExtResource("8_ndb3t")
-
-[node name="Brick13" parent="DefaultLevel" index="55" instance=ExtResource("2_lfs4v")]
-position = Vector2(336, 168)
-type = ExtResource("8_ndb3t")
-
-[node name="Brick14" parent="DefaultLevel" index="56" instance=ExtResource("2_lfs4v")]
-position = Vector2(304, 152)
-type = ExtResource("8_ndb3t")
-
-[node name="Brick15" parent="DefaultLevel" index="57" instance=ExtResource("2_lfs4v")]
-position = Vector2(272, 136)
-type = ExtResource("8_ndb3t")
-
-[node name="Brick17" parent="DefaultLevel" index="58" instance=ExtResource("2_lfs4v")]
-position = Vector2(336, 200)
-type = ExtResource("8_ndb3t")
-
-[node name="Brick29" parent="DefaultLevel" index="59" instance=ExtResource("2_lfs4v")]
-position = Vector2(272, 232)
-type = ExtResource("8_ndb3t")
-
-[node name="Brick16" parent="DefaultLevel" index="60" instance=ExtResource("2_lfs4v")]
-position = Vector2(80, 344)
-type = ExtResource("3_kcrlq")
-
-[node name="Brick58" parent="DefaultLevel" index="61" instance=ExtResource("2_lfs4v")]
-position = Vector2(112, 344)
-type = ExtResource("3_kcrlq")
-
-[node name="Brick59" parent="DefaultLevel" index="62" instance=ExtResource("2_lfs4v")]
-position = Vector2(144, 344)
-type = ExtResource("3_kcrlq")
-
-[node name="Brick60" parent="DefaultLevel" index="63" instance=ExtResource("2_lfs4v")]
-position = Vector2(176, 344)
-type = ExtResource("3_kcrlq")
-
-[node name="Brick61" parent="DefaultLevel" index="64" instance=ExtResource("2_lfs4v")]
-position = Vector2(208, 344)
-type = ExtResource("3_kcrlq")
-
-[node name="Brick62" parent="DefaultLevel" index="65" instance=ExtResource("2_lfs4v")]
-position = Vector2(240, 344)
-type = ExtResource("3_kcrlq")
-
-[node name="Brick63" parent="DefaultLevel" index="66" instance=ExtResource("2_lfs4v")]
-position = Vector2(272, 344)
-type = ExtResource("3_kcrlq")
-
-[node name="Brick64" parent="DefaultLevel" index="67" instance=ExtResource("2_lfs4v")]
-position = Vector2(304, 344)
-type = ExtResource("3_kcrlq")
-
-[node name="Brick65" parent="DefaultLevel" index="68" instance=ExtResource("2_lfs4v")]
-position = Vector2(336, 344)
-type = ExtResource("3_kcrlq")
-
-[node name="Brick66" parent="DefaultLevel" index="69" instance=ExtResource("2_lfs4v")]
-position = Vector2(368, 344)
-type = ExtResource("3_kcrlq")
-
-[node name="Brick67" parent="DefaultLevel" index="70" instance=ExtResource("2_lfs4v")]
-position = Vector2(400, 344)
-type = ExtResource("3_kcrlq")
-
-[node name="Brick68" parent="DefaultLevel" index="71" instance=ExtResource("2_lfs4v")]
-position = Vector2(432, 344)
-type = ExtResource("3_kcrlq")
+[gd_scene load_steps=22 format=3 uid="uid://dlm1xf3tnv3rx"]
+
+[ext_resource type="PackedScene" uid="uid://bdlewbi22dowq" path="res://scenes/world.tscn" id="1_dytmr"]
+[ext_resource type="Script" path="res://scripts/boss.gd" id="2_2cvfw"]
+[ext_resource type="Texture2D" uid="uid://df7lggy1rm6s5" path="res://assets/doh.png" id="2_shrpn"]
+[ext_resource type="PackedScene" uid="uid://grcnbl35d81b" path="res://scenes/boss_projectile.tscn" id="3_f1ytr"]
+[ext_resource type="Texture2D" uid="uid://bjap6uwvdtnnr" path="res://assets/doh-hit.png" id="4_v1tjq"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_7578m"]
+size = Vector2(96, 184)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_qcouq"]
+atlas = ExtResource("2_shrpn")
+region = Rect2(0, 0, 247, 429)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_4ln6g"]
+atlas = ExtResource("2_shrpn")
+region = Rect2(741, 0, 247, 429)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_hv0gn"]
+atlas = ExtResource("2_shrpn")
+region = Rect2(741, 0, 247, 429)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_mrs52"]
+atlas = ExtResource("2_shrpn")
+region = Rect2(494, 0, 247, 429)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_60k8f"]
+atlas = ExtResource("2_shrpn")
+region = Rect2(247, 0, 247, 429)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_dwjnr"]
+atlas = ExtResource("2_shrpn")
+region = Rect2(0, 0, 247, 429)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_bswxw"]
+atlas = ExtResource("2_shrpn")
+region = Rect2(0, 0, 247, 429)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ergtr"]
+atlas = ExtResource("2_shrpn")
+region = Rect2(247, 0, 247, 429)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_2qnnl"]
+atlas = ExtResource("2_shrpn")
+region = Rect2(494, 0, 247, 429)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_2njjj"]
+atlas = ExtResource("2_shrpn")
+region = Rect2(741, 0, 247, 429)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_ri73k"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_qcouq")
+}],
+"loop": true,
+"name": &"default",
+"speed": 3.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_4ln6g")
+}],
+"loop": true,
+"name": &"open_mouth",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 5.0,
+"texture": SubResource("AtlasTexture_hv0gn")
+}, {
+"duration": 5.0,
+"texture": SubResource("AtlasTexture_mrs52")
+}, {
+"duration": 5.0,
+"texture": SubResource("AtlasTexture_60k8f")
+}, {
+"duration": 5.0,
+"texture": SubResource("AtlasTexture_dwjnr")
+}],
+"loop": false,
+"name": &"start_close_mouth",
+"speed": 15.0
+}, {
+"frames": [{
+"duration": 5.0,
+"texture": SubResource("AtlasTexture_bswxw")
+}, {
+"duration": 5.0,
+"texture": SubResource("AtlasTexture_ergtr")
+}, {
+"duration": 5.0,
+"texture": SubResource("AtlasTexture_2qnnl")
+}, {
+"duration": 5.0,
+"texture": SubResource("AtlasTexture_2njjj")
+}],
+"loop": false,
+"name": &"start_open_mouth",
+"speed": 15.0
+}]
+
+[sub_resource type="Animation" id="Animation_dkst2"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(240, 208)]
+}
+
+[sub_resource type="Animation" id="Animation_njsif"]
+resource_name = "death"
+length = 3.0
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("HitSprite:visible")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.3, 0.6, 1.1, 1.4, 1.8, 2, 2.1, 2.2, 2.3, 2.4, 2.5, 2.6, 3),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1),
+"update": 1,
+"values": [true, false, true, false, true, false, true, false, true, false, true, false, true, true]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath(".:position")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 0.1, 0.2, 0.3, 0.4, 0.6, 0.8, 1, 1.3, 1.6, 1.7, 1.8, 1.9, 2, 2.1, 2.2, 2.3),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [Vector2(240, 208), Vector2(230, 203), Vector2(240, 208), Vector2(250, 203), Vector2(240, 208), Vector2(230, 203), Vector2(240, 208), Vector2(230, 203), Vector2(240, 208), Vector2(230, 203), Vector2(240, 208), Vector2(230, 203), Vector2(240, 208), Vector2(230, 203), Vector2(240, 208), Vector2(230, 203), Vector2(240, 208)]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath(".:rotation")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0, 0.2, 0.5, 0.9, 2.3, 2.8, 3),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [0.0, 0.122173, -0.20944, 0.15708, 0.0, 4.71239, 6.28319]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath(".:scale")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0, 0.2, 0.3, 0.4, 0.9, 1, 1.1, 1.9, 2, 2.1, 2.2, 2.4, 3),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [Vector2(1, 1), Vector2(1, 1), Vector2(0.9, 0.9), Vector2(1, 1), Vector2(1, 1), Vector2(0.75, 0.75), Vector2(1, 1), Vector2(1, 1), Vector2(1.1, 1.1), Vector2(0.9, 0.9), Vector2(1.1, 1.1), Vector2(1, 1), Vector2(0.05, 0.05)]
+}
+tracks/4/type = "value"
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/path = NodePath("AnimatedSprite2D:frame")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [0]
+}
+tracks/5/type = "value"
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/path = NodePath("AnimatedSprite2D:animation")
+tracks/5/interp = 1
+tracks/5/loop_wrap = true
+tracks/5/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [&"open_mouth"]
+}
+
+[sub_resource type="Animation" id="Animation_gia1a"]
+resource_name = "shoot_projectiles"
+length = 2.3
+tracks/0/type = "method"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.4, 0.8, 1.5, 1.9, 2.3),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1),
+"values": [{
+"args": [],
+"method": &"_shoot_projectile"
+}, {
+"args": [],
+"method": &"_shoot_projectile"
+}, {
+"args": [],
+"method": &"_shoot_projectile"
+}, {
+"args": [],
+"method": &"_shoot_projectile"
+}, {
+"args": [],
+"method": &"_shoot_projectile"
+}, {
+"args": [],
+"method": &"_shoot_projectile"
+}]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_4eg4y"]
+_data = {
+"RESET": SubResource("Animation_dkst2"),
+"death": SubResource("Animation_njsif"),
+"shoot_projectiles": SubResource("Animation_gia1a")
+}
+
+[node name="Level33" instance=ExtResource("1_dytmr")]
+
+[node name="Boss" type="StaticBody2D" parent="DefaultLevel" index="1"]
+position = Vector2(240, 208)
+collision_layer = 8
+collision_mask = 4
+script = ExtResource("2_2cvfw")
+projectile_scene = ExtResource("3_f1ytr")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="DefaultLevel/Boss" index="0"]
+position = Vector2(0, 4)
+shape = SubResource("RectangleShape2D_7578m")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="DefaultLevel/Boss" index="1"]
+scale = Vector2(0.5, 0.5)
+sprite_frames = SubResource("SpriteFrames_ri73k")
+animation = &"open_mouth"
+autoplay = "default"
+
+[node name="HitSprite" type="Sprite2D" parent="DefaultLevel/Boss" index="2"]
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("4_v1tjq")
+
+[node name="HitTimer" type="Timer" parent="DefaultLevel/Boss" index="3"]
+wait_time = 0.3
+one_shot = true
+
+[node name="ShootCDTimer" type="Timer" parent="DefaultLevel/Boss" index="4"]
+wait_time = 1.5
+one_shot = true
+
+[node name="MouthOpenTimer" type="Timer" parent="DefaultLevel/Boss" index="5"]
+wait_time = 2.3
+one_shot = true
+
+[node name="MouthMarker" type="Marker2D" parent="DefaultLevel/Boss" index="6"]
+position = Vector2(0, 16)
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="DefaultLevel/Boss" index="7"]
+process_mode = 3
+libraries = {
+"": SubResource("AnimationLibrary_4eg4y")
+}
 
 [node name="PauseMenu" parent="UI" index="1"]
 visible = false
